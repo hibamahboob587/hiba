@@ -23,7 +23,7 @@ document.getElementById("contact-btn").addEventListener("click", function() {
     // Store form data in local storage
     localStorage.setItem("formData", JSON.stringify(formData));
     
-    // Provide feedback to the user (optional)
+    // Provide feedback to the user 
     alert("Form data submitted and stored locally!");
     document.getElementById("contactForm").reset();
 });
